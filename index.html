@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="hisWrapper">
+        <ul id="history">
+        </ul>
+    </div>
+    <div id="calc">
+        <div id="ans"></div>
+        <input type="button" value="/" onclick="add(this)">
+        <input type="button" value="%" onclick="add(this)">
+        <input type="button" value="*" onclick="add(this)">
+        <input type="button" value="Del" onclick="del()">
+        <input type="button" value="1" onclick="add(this)">
+        <input type="button" value="2" onclick="add(this)">
+        <input type="button" value="3" onclick="add(this)">
+        <input type="button" value="+" onclick="add(this)">
+        <input type="button" value="4" onclick="add(this)">
+        <input type="button" value="5" onclick="add(this)">
+        <input type="button" value="6" onclick="add(this)">
+        <input type="button" value="-" onclick="add(this)">
+        <input type="button" value="7" onclick="add(this)">
+        <input type="button" value="8" onclick="add(this)">
+        <input type="button" value="9" onclick="add(this)">
+        <input type="button" value="=" onclick="evalAns()">
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>
